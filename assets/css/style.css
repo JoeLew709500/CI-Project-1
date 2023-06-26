@@ -216,73 +216,73 @@ tr:hover {
 
 /* Media Queries */
 @media screen and (max-width: 780px) {
-    header {
-      display: block;
-    }
-    #logo {
-      float: right;
-    }
-    #nav-bar {
-      display: none;
-      background-color: rgb(255, 0, 0);
-    }
-    .nav-bar-icon {
-      display: block;
-      cursor: pointer;
-      width: fit-content;
-      border: 1px solid #ffffff;
-      padding: 5px 10px;
-      margin: 5px;
-      overflow: hidden;
-      border-radius: 5px;
-      color: #ffffff;
-    }
-    .nav-bar-icon:hover {
-      background-color: #ffffff;
-      color: rgb(255, 0, 0);
-    }
-    #nav-bar-check:checked ~ #nav-bar {
-      display: block;
-      width: fit-content;
-      left: 0px;
-      border: 1px black;
-      border-radius: 5px;
-      overflow: hidden;
-    }
-    #nav-bar a {
-      padding: 0;
-    }
-    .small {
-      display: table-row !important;
-    }
-    .large {
-      display: none;
-    }
-    .sign-up-form {
-      left: 0 !important;
-      margin: auto;
-      position: absolute;
-      right: 0;
-      width: 250px;
-    }
-    .sign-up-button {
-      width: 100% !important;
-      margin-left: auto !important;
-    }
+  header {
+    display: block;
   }
-  
-  @media screen and (max-width: 500px) {
-    h1 {
-      font-size: 18px;
-    }
-    header {
-      height: fit-content;
-    }
-    #logo {
-      line-height: 45px;
-    }
-    #table td,
-    #table th {
-      padding: 5px !important;
-    }
+  #logo {
+    float: right;
   }
+  #nav-bar {
+    display: none;
+    background-color: rgb(255, 0, 0);
+  }
+  .nav-bar-icon {
+    display: block;
+    cursor: pointer;
+    width: fit-content;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  .nav-bar-icon:hover {
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+  }
+  #nav-bar-check:checked ~ #nav-bar {
+    display: block;
+    width: fit-content;
+    left: 0px;
+    border: 1px black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  #nav-bar a {
+    padding: 0;
+  }
+  .small {
+    display: table-row !important;
+  }
+  .large {
+    display: none;
+  }
+  .sign-up-form {
+    left: 0 !important;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 250px;
+  }
+  .sign-up-button {
+    width: 100% !important;
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 18px;
+  }
+  header {
+    height: fit-content;
+  }
+  #logo {
+    line-height: 45px;
+  }
+  #table td,
+  #table th {
+    padding: 5px !important;
+  }
+}
