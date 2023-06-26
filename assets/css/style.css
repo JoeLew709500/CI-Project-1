@@ -245,7 +245,6 @@ tr:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-radius: 5px;
   transition: 1s;
 }
 
