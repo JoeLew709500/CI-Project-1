@@ -107,6 +107,12 @@ header {
   #nav-bar a {
     padding: 0;
   }
+  .small {
+    display: table-row !important;
+  }
+  .large {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -118,6 +124,10 @@ header {
   }
   #logo {
     line-height: 45px;
+  }
+  #table td,
+  #table th{
+    padding: 5px !important;
   }
 }
 
@@ -159,7 +169,7 @@ section {
 
 @keyframes hero-image-affect {
   from {
-    transform: scale(0.20);
+    transform: scale(0.2);
     opacity: 30%;
   }
   to {
@@ -168,10 +178,54 @@ section {
   }
 }
 
-#intro-para{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
+#intro-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Table */
+
+#centre-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 10;
+  padding: 0;
+}
+
+#table {
+  border-spacing: 0;
+  border: 1px solid #ffffff;
+  margin-top: 40px;
+  position: relative;
+  background-color: rgb(255, 0, 0);
+  margin-bottom: 10px;
+}
+
+#table td,
+#table th {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+tr:hover {
+  background-color: grey;
+}
+
+#table th {
+  position: sticky;
+  top: 50px;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.small {
+  display: none;
 }
