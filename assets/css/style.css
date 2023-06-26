@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+/* Header Logo Nav-bar style */
+header {
+  background-color: rgb(255, 0, 0);
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  font-family: "Geologica", sans-serif;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#logo {
+  float: left;
+}
+
+#logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#nav-bar {
+  display: grid;
+  grid-auto-flow: column;
+  margin-right: 10px;
+  line-height: 40px;
+  margin-top: 5px;
+  position: fixed;
+  z-index: 1000;
+  right: 5px;
+  list-style-type: none;
+}
+#nav-bar li {
+  padding: 0 5px;
+  border-radius: 2px;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 5px;
+}
+
+#nav-bar li:hover {
+  color: rgb(255, 0, 0);
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.active-page {
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+}
+
+/* Footer style */
+.social-nets {
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+  }
+  
+  .social-nets i {
+    font-size: 150%;
+    padding: 0 25px;
+    color: rgb(255, 0, 0);
+  }
+  
+  .social-nets li {
+    display: inline;
+  }
+  
