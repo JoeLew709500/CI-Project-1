@@ -214,6 +214,53 @@ tr:hover {
   color: rgb(255, 0, 0);
 }
 
+/*Flip Cards*/
+#gallery {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3px;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  z-index: 100;
+  clear: both;
+}
+.face > img {
+  object-fit: contain;
+  height: inherit;
+  width: inherit;
+}
+.face,
+.back {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .face {
+  transform: rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: rotateY(0);
+}
+
 /* Media Queries */
 @media screen and (max-width: 780px) {
   header {
