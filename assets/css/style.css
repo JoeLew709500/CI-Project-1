@@ -18,18 +18,15 @@ header {
   top: 0;
   z-index: 1000;
 }
-
 #logo {
   float: left;
   width: fit-content;
   padding: 0 10px;
 }
-
 #logo a {
   color: #ffffff;
   text-decoration: none;
 }
-
 #nav-bar {
   display: grid;
   grid-auto-flow: column;
@@ -50,19 +47,16 @@ header {
   color: #ffffff;
   padding: 0 5px;
 }
-
 #nav-bar li:hover {
   color: rgb(255, 0, 0);
   background-color: #ffffff;
   font-weight: bold;
 }
-
 .active-page {
   background-color: #ffffff;
   font-weight: bold;
   color: rgb(255, 0, 0);
 }
-
 .nav-bar-icon {
   display: none;
 }
@@ -90,9 +84,6 @@ header {
   display: inline;
 }
 
-section {
-  background-color: rgba(233, 171, 0, 0.3);
-}
 /* hero image */
 #hero-image {
   width: 100%;
@@ -221,11 +212,12 @@ tr:hover {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  gap: 3px;
+  gap: 5px;
 }
 .card {
+  margin-top: 10px;
   width: 200px;
-  height: 200px;
+  height: 250px;
   z-index: 100;
   clear: both;
 }
@@ -239,25 +231,43 @@ tr:hover {
   width: inherit;
   height: inherit;
   position: absolute;
-  backface-visibility: hidden;
+  color: transparent;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transition: 1s;
+  transition: 2s;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+
+.face {
+  background-color: rgba(233, 171, 0, .7);
 }
 
 .back {
   transform: rotateY(180deg);
+  font-weight:bolder;
+}
+
+.back p {
+  font-size: 18px;
 }
 
 .card:hover .face {
   transform: rotateY(180deg);
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.card:hover .face > img {
+  opacity: .6;
 }
 
 .card:hover .back {
   transform: rotateY(0);
+  /* color: rgba(0, 125, 50); */
+  color: black;
 }
 
 /* Media Queries */
