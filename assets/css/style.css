@@ -80,13 +80,17 @@ header {
 }
 
 .social-nets i {
-  font-size: 150%;
+  font-size: 200%;
   padding: 0 25px;
   color: rgb(255, 0, 0);
 }
 
 .social-nets li {
   display: inline;
+}
+
+.social-nets li:hover {
+  font-size: 150%;
 }
 
 /* hero image */
