@@ -57,6 +57,11 @@ header {
   font-weight: bold;
   color: rgb(255, 0, 0);
 }
+
+.active-page a {
+  color: rgb(255, 0, 0) !important;
+}
+
 .nav-bar-icon {
   display: none;
 }
@@ -243,12 +248,12 @@ tr:hover {
 }
 
 .face {
-  background-color: rgba(233, 171, 0, .7);
+  background-color: rgba(233, 171, 0, 0.7);
 }
 
 .back {
   transform: rotateY(180deg);
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 .back p {
@@ -261,12 +266,11 @@ tr:hover {
 }
 
 .card:hover .face > img {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .card:hover .back {
   transform: rotateY(0);
-  /* color: rgba(0, 125, 50); */
   color: black;
 }
 
