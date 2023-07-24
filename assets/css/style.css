@@ -52,6 +52,10 @@ header {
   background-color: #ffffff;
   font-weight: bold;
 }
+
+#nav-bar li:hover a{
+  color: rgb(255, 0, 0);
+}
 .active-page {
   background-color: #ffffff;
   font-weight: bold;
@@ -183,7 +187,7 @@ tr:hover {
   position: absolute;
   left: 15%;
   top: 25vh;
-  padding: 10px 30px;
+  padding: 15px 30px;
   max-width: 500px;
   border-radius: 5px;
   color: #ffffff;
