@@ -108,6 +108,7 @@ header {
   object-fit: contain;
   animation-name: hero-image-affect;
   animation-duration: 4s;
+  margin-bottom: 10px;
 }
 
 @keyframes hero-image-affect {
@@ -121,12 +122,31 @@ header {
   }
 }
 
+/* home page image */
+
+#three-feathers {
+  width: 25%;
+  height: 400px;
+  overflow: hidden;
+  background-image: url("../images/three-feathers.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: contain;
+  animation-name: hero-image-affect;
+  animation-duration: 4s;
+  background-color: rgba(255, 0, 0, 0.5);
+  float: left;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+
 #intro-para {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
+  height: 400px;
 }
 
 /* Table */
@@ -336,6 +356,15 @@ tr:hover {
   .sign-up-button {
     width: 100% !important;
     margin-left: auto !important;
+  }
+  #three-feathers {
+    width: 90%;
+    margin: 10px 5% 0 5%;
+    clear: both;
+  }
+  #intro-para {
+    clear: both;
+    height: fit-content;
   }
 }
 
