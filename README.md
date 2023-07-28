@@ -8,47 +8,65 @@ This website is a fan website of the National Rugby team of Wales.
 
 Users of the site will be able to look at this site and see up to date six nation results, players and their positions.
 
-A live website can be found [here](https://joelew709500.github.io/CI-Project-1/sign-up.html).
+A live website can be found [here](https://joelew709500.github.io/CI-Project-1/index.html).
 
-<!-- Insert photo of site -->
+![I am responsive](assets/readme-files/i-am-responsive.png)
+
+## Table of Content
+
+* [Features](#features)
+    * [Header](#header)
+    * [Home Page](#home-page)
+    * [Six Nations](#six-nations)
+    * [Team](#team)
+    * [Sign-up](#sign-up)
+* [Testing](#testing)
+    * [Bugs](#bugs)
+    * [Lighthouse Results](#lighthouse-results)
+* [Deployment](#deployment)
+* [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+
 
 ## Features
-* Header
-    * At the top of the page the header consists of the website name and a navigation bar
-    * The navigation bar collapses into a dropdown menu once the width is 780px or below
-    * The theme is red as its the color of Wales and the jersey of the Wales rugby team
 
-<!-- Insert photo of site -->
+### Header
+* At the top of the page the header consists of the website name and a navigation bar
+* The navigation bar collapses into a dropdown menu once the width is 780px or below
+* The theme is red as its the color of Wales and the jersey of the Wales rugby team
 
-* Home Page
-    * Has the welsh team standing in a row ready to sing the national anthem before the game starts, just like the user is getting ready to use the site
-    * This is followed by the 3 feathers that zooms in with the summery text to its right or below if screen size is less than or equal to 780px
+![header image](assets/readme-files/header.png)
 
-<!-- Insert photo of site -->
+### Home Page
+* Has the welsh team standing in a row ready to sing the national anthem before the game starts, just like the user is getting ready to use the site
+* This is followed by the 3 feathers that zooms in with the summery text to its right or below if screen size is less than or equal to 780px
 
-* Six Nations
-    * Has a table of all of Wales's results from the Six Nations since the Five Nations became the Six Nations in 2000
-    * The table has a background colour that is the same as the crown of the 3 feathers and when you hover over each year the color changes to green which is one of the colours on the welsh flag this makes it easier for the user to read.
-    * When screen size is less than or equal to 780px the table headers abbreviate to the standard abbreviations shown on TV
+![home page image](assets/readme-files/home-page.png)
 
-<!-- Insert photo of site -->
+### Six Nations
+* Has a table of all of Wales's results from the Six Nations since the Five Nations became the Six Nations in 2000
+* The table has a background colour that is the same as the crown of the 3 feathers and when you hover over each year the color changes to green which is one of the colours on the welsh flag this makes it easier for the user to read.
+* When screen size is less than or equal to 780px the table headers abbreviate to the standard abbreviations shown on TV
 
-* Team
-    * This page consists of every player in the welsh squad
-    * When hovering over the player the card flips and gives the players name and position
+![six nations image](assets/readme-files/six-nations-page.png)
 
-<!-- Insert photo of site -->
+### Team
+* This page consists of every player in the welsh squad
+* When hovering over the player the card flips and gives the players name and position
 
-* Sign-up
-    * This form is to collect the information of fans if they chose to do so to keep up to date on the Welsh Rugby Team
+![team image](assets/readme-files/team-page.png)
 
-<!-- Insert photo of site -->
+### Sign-up
+* This form is to collect the information of fans if they chose to do so to keep up to date on the Welsh Rugby Team
 
-* Footer
-    * This consists of the social media links that open in a new tab
-    * The icons also enlarge when you hover over them for a more interactive user experience 
+![sign-up image](assets/readme-files/sign-up-page.png)
 
-<!-- Insert photo of site -->
+### Footer
+* This consists of the social media links that open in a new tab
+* The icons also enlarge when you hover over them for a more interactive user experience 
+
+![footer image](assets/readme-files/footer.png)
 
 ## Testing
 * I've tested the website on Edge, Chrome, Firefox
@@ -70,6 +88,8 @@ A live website can be found [here](https://joelew709500.github.io/CI-Project-1/s
 
 * CSS
     * No errors showing on jigsaw validator
+
+![Jigsaw Validator](assets/readme-files/css-jigsaw.png)
 
 * Accessibility
     * I can confirm that the colours and fonts used are accessible and appropriate by running lighthouse in dev tools
