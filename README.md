@@ -23,6 +23,7 @@ A live website can be found [here](https://joelew709500.github.io/CI-Project-1/i
 * [Testing](#testing)
     * [Bugs](#bugs)
     * [Lighthouse Results](#lighthouse-results)
+    * [Manual Testing](#manual-testing)
 * [Deployment](#deployment)
 * [Final product](#final-product)
 * [Credits](#credits)
@@ -125,7 +126,7 @@ Sign-up
 ### Manual Testing
 
 #### Screen size greater than 780 px
-##### Header
+#### Header
 
 Feature | Desired Outcome | Pass / Fail
 --- | --- | ---
@@ -150,7 +151,32 @@ Table Header | Sticks just below the header | Pass
 #### Team Page
 Feature | Desired Outcome | Pass / Fail
 --- | --- | ---
+Cards | on hover flip change opacity of picture and show player name and text | Pass
 
+#### Sign-up page
+Feature | Desired Outcome | Pass / Fail
+--- | --- | ---
+First Name input | Mandatory | Pass
+Last Name input | Mandatory | Pass
+Email input | Mandatory and ensure email format | Pass
+Sign-up button | Only submits when all fields are populated and takes to https://formdump.codeinstitute.net/ with Congratulations! message | Pass
+
+#### Footer
+Feature | Desired Outcome | Pass / Fail
+--- | --- | ---
+Social media icons | On hover increase in size | Pass
+
+### Screen size equal to or less than 780px
+#### Header
+
+Feature | Desired Outcome | Pass / Fail
+--- | --- | ---
+Website logo/title | Takes you to index.html on hover back ground colour changes to white and text to red | Pass
+Home button | Takes you to index.html on hover back ground colour changes to white and text to red | Pass
+Six Nations button | Takes you to six-nations.html on hover back ground colour changes to white and text to red | Pass
+Team button | Takes you to team.html on hover back ground colour changes to white and text to red | Pass
+Sign-up button | Takes you to sign-up.html on hover back ground colour changes to white and text to red | Pass
+Hamburger menu button | Shows drop-down menu | Pass
 
 
 ## Deployment
