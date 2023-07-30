@@ -129,17 +129,28 @@ Sign-up
 
 Feature | Desired Outcome | Pass / Fail
 --- | --- | ---
-Website logo/title | Takes you to index.html | Pass
-Home button | Takes you to index.html | Pass
-Six Nations button | Takes you to six-nations.html | Pass
-Team button | Takes you to team.html | Pass
-Sign-up button | Takes you to sign-up.html | Pass
+Website logo/title | Takes you to index.html on hover back ground colour changes to white and text to red | Pass
+Home button | Takes you to index.html on hover back ground colour changes to white and text to red | Pass
+Six Nations button | Takes you to six-nations.html on hover back ground colour changes to white and text to red | Pass
+Team button | Takes you to team.html on hover back ground colour changes to white and text to red | Pass
+Sign-up button | Takes you to sign-up.html on hover back ground colour changes to white and text to red | Pass
 
 #### Home Page
 Feature | Desired Outcome | Pass / Fail
 --- | --- | ---
 Hero Image | On load image zooms in and increases in opacity | Pass
 Three Feathers Image | On load image zooms in and increases in opacity | Pass
+
+#### Six Nations Page
+Feature | Desired Outcome | Pass / Fail
+--- | --- | ---
+Table | On hover background colour on row changes to green| Pass
+Table Header | Sticks just below the header | Pass
+
+#### Team Page
+Feature | Desired Outcome | Pass / Fail
+--- | --- | ---
+
 
 
 ## Deployment
