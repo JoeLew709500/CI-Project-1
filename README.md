@@ -37,13 +37,13 @@ A live website can be found [here](https://joelew709500.github.io/CI-Project-1/i
 ### Header
 * At the top of the page the header consists of the website name and a navigation bar
 * The navigation bar collapses into a dropdown menu once the width is 780px or below
-* The theme is red as its the color of Wales and the jersey of the Wales rugby team
+* The theme is red as its the colour of Wales and the jersey of the Wales rugby team
 * The header has the sticky attribute to make it easier for users to navigate the website once scrolled
 
 ![header image](assets/readme-files/header.png)
 
 ### Home Page
-* Has the welsh team standing in a row ready to sing the national anthem before the game starts, just like the user is getting ready to use the site
+* Has the Welsh team standing in a row ready to sing the national anthem before the game starts, just like the user is getting ready to use the site
 * This is followed by the 3 feathers that zooms in with the summery text to its right or below if screen size is less than or equal to 780px
 * This page shoes what the users are to expect from the page
 
@@ -51,14 +51,14 @@ A live website can be found [here](https://joelew709500.github.io/CI-Project-1/i
 
 ### Six Nations
 * Has a table of all of Wales's results from the Six Nations since the Five Nations became the Six Nations in 2000
-* The table has a background colour that is the same as the crown of the 3 feathers and when you hover over each year the color changes to green which is one of the colours on the welsh flag this makes it easier for the user to read.
+* The table has a background colour that is the same as the crown of the 3 feathers and when you hover over each year the colour changes to green which is one of the colours on the Welsh flag this makes it easier for the user to read.
 * When screen size is less than or equal to 780px the table headers abbreviate to the standard abbreviations shown on TV
 * The information is put into a linear format making it easier for the user to read
 
 ![six nations image](assets/readme-files/six-nations-page.png)
 
 ### Team
-* This page consists of every player in the welsh squad
+* This page consists of every player in the Welsh squad
 * When hovering over the player the card flips and gives the players name and position this gives the user a more interactive experience
 
 ![team image](assets/readme-files/team-page.png)
@@ -83,7 +83,7 @@ A live website can be found [here](https://joelew709500.github.io/CI-Project-1/i
 
 ### Bugs
 * HTML
-    * First time putting the HTML pages into W3C Validator I had errors for my navigation bar where I had the anchor element as the parent element of an unordered list element
+    * First time putting the HTML pages into W3C Validator I had errors for my navigation bar where I had the anchor element as the parent element of an unordered list element.
         * Fix
             * Placed the anchor element as a child of the unordered list element
             * Changed the CSS to have the style apply to the unordered list element
@@ -130,11 +130,11 @@ Sign-up
 
 Feature | Desired Outcome | Pass / Fail
 --- | --- | ---
-Website logo/title | Takes you to index.html on hover back ground colour changes to white and text to red | Pass
-Home button | Takes you to index.html on hover back ground colour changes to white and text to red | Pass
-Six Nations button | Takes you to six-nations.html on hover back ground colour changes to white and text to red | Pass
-Team button | Takes you to team.html on hover back ground colour changes to white and text to red | Pass
-Sign-up button | Takes you to sign-up.html on hover back ground colour changes to white and text to red | Pass
+Website logo/title | Takes you to index.html on hover background colour changes to white and text to red | Pass
+Home button | Takes you to index.html on hover background colour changes to white and text to red | Pass
+Six Nations button | Takes you to six-nations.html on hover background colour changes to white and text to red | Pass
+Team button | Takes you to team.html on hover background colour changes to white and text to red | Pass
+Sign-up button | Takes you to sign-up.html on hover background colour changes to white and text to red | Pass
 
 #### Home Page
 Feature | Desired Outcome | Pass / Fail
@@ -171,11 +171,11 @@ Social media icons | On hover increase in size | Pass
 
 Feature | Desired Outcome | Pass / Fail
 --- | --- | ---
-Website logo/title | Takes you to index.html on hover back ground colour changes to white and text to red | Pass
-Home button | Takes you to index.html on hover back ground colour changes to white and text to red | Pass
-Six Nations button | Takes you to six-nations.html on hover back ground colour changes to white and text to red | Pass
-Team button | Takes you to team.html on hover back ground colour changes to white and text to red | Pass
-Sign-up button | Takes you to sign-up.html on hover back ground colour changes to white and text to red | Pass
+Website logo/title | Takes you to index.html on hover background colour changes to white and text to red | Pass
+Home button | Takes you to index.html on hover background colour changes to white and text to red | Pass
+Six Nations button | Takes you to six-nations.html on hover background colour changes to white and text to red | Pass
+Team button | Takes you to team.html on hover background colour changes to white and text to red | Pass
+Sign-up button | Takes you to sign-up.html on hover background colour changes to white and text to red | Pass
 Hamburger menu button | Shows drop-down menu | Pass
 
 
